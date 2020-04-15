@@ -31,3 +31,4 @@ print(B['type'].value_counts())
 
 ```
 
+Check out the "examples" section for more examples.
