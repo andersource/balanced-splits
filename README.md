@@ -31,4 +31,3 @@ print(B['type'].value_counts())
 
 ```
 
-### More information
