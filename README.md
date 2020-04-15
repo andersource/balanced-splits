@@ -5,7 +5,7 @@ A utility library for splitting datasets in a balanced manner, with regards to s
 `pip install balanced-splits`
 
 ### Usage
-```
+```python
 import numpy as np
 import pandas as pd
 from balanced_splits.split import optimized_split
