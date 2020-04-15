@@ -35,7 +35,8 @@ def guess_var_type(x):
 def score(partitions, var_types):
     """Score the balance of a particular split of a dataset"""
     return np.min([
-        score_var([_get_accessor(partition)[:, i] for partition in partitions], var_types[i])
+        score_var([_get_accessor(partition)[:, i]
+                   for partition in partitions], var_types[i])
         for i in range(len(var_types))
     ])
 
