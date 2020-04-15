@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="balanced-splits",
-    version="0.1.0",
+    version="0.2.0",
     author="andersource",
     author_email="hi@andersource.dev",
     description="Balanced splitting utility",
@@ -19,4 +19,9 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        'numpy',
+        'scipy',
+        'pandas'
+    ]
 )
