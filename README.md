@@ -32,3 +32,5 @@ print(B['type'].value_counts())
 ```
 
 Check out the "examples" section for more examples.
+
+See [this post](https://andersource.dev/2020/04/15/random-vs-balanced-splits.html) for background and more information.
